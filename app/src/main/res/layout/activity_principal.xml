@@ -16,6 +16,7 @@
         android:id="@+id/button2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:onClick="irParaCicloDeVida"
         android:layout_marginTop="70dp" />
 
     <Button
@@ -25,5 +26,6 @@
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
+        android:onClick="irParaCalculadora"
         android:layout_marginTop="48dp" />
 </RelativeLayout>
